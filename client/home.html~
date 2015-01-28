@@ -1,0 +1,9 @@
+<template name="home">
+	
+{{>nav}}
+
+
+
+
+
+</template>

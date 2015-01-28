@@ -1,0 +1,14 @@
+Template.stores.helpers({
+Store:function(){
+		 return iStores.find({});
+	}
+});
+
+Template.stores.events({
+ 'click .side':function(e){
+e.preventDefault();
+$('.vertical.sidebar').sidebar('toggle');
+Session.set('adding_interest',true);	
+  }
+
+});

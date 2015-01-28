@@ -1,0 +1,5 @@
+// Template.feed.rendered = function () {
+
+	
+
+// };

@@ -1,0 +1,10 @@
+<template name="nav">
+	<div class="ui inverted menu">
+  <a href="/feed" class="active item">
+    <i class="home icon"></i> New Feed
+  </a>
+  <a href="/stores" class="item">
+    <i class="shop icon"></i> Stores
+  </a>
+</div>
+</template>
