@@ -1,29 +1,35 @@
 <template name="feed">
 	<div class="ui inverted menu" id="nav">
-  <a href="/feed" class="active item" style="width:50%;">
-    <i class="home icon"></i> New Feed
+  <a href="/feed" class="active item" style="width:50%;text-align:center;">
+    <i class="home icon"></i><strong> NEWS FEED</strong>
   </a>
-  <a href="/stores" class="item" style="width:50%;">
-    <i class="shop icon"></i> Stores
+  <a href="/stores" class="item" style="width:50%;text-align:center;">
+    <i class="shop icon"></i> <strong>STORES</strong>
   </a>
 </div>
 
 
-<!--<div class="a5b5e4" data-id="health" data-columns="" style="height:700px;width:100%;"></div>-->
-<div style="margin:3px;" class="feedgrabbr_widget" id="fgid_92cb1644719bd5b0458a2774a"></div>
+<div id="fbplug">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fiamreal.juices&amp;width=330&amp;height=600&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=768939139860017" scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:100%; height:600px;" allowTransparency="true"></iframe>
 
-
-
+</div>
 
 
 <style>
 	body{
 		background: white;
 	}
-	#fgid_92cb1644719bd5b0458a2774a > div > div > div.fg_wid_footer > a > img{
-		display: none;
+	#fbplug{
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 100%;
 	}
-
+body > div > div > div > div.clearfix.pvs.phm > a{
+	display: none !important;
+}
+body > div > div > div > div.clearfix.pvs.phm > div > div > a{
+	display: none !important;
+}
 </style>
 
 </template>

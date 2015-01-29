@@ -7,9 +7,13 @@ margin-top: 28%;
 margin-left: 6%;
 }
 #enter{
-	margin-left: 40% !important;
+	margin-left: 33% !important;
 margin-top: 22% !important;
+width: 40%;
 }
 #nav{
 	background:#e7155e;
+}
+.store1,.store2,.store3,.store4{
+-webkit-transition: all 0.2s linear;
 }

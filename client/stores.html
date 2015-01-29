@@ -1,62 +1,61 @@
 <template name="stores">
 
   <div class="ui inverted menu" id="nav">
-  <a href="/feed" class="item" style="width:50%;">
-    <i class="home icon"></i> New Feed
+  <a href="/feed" class="item" style="width:50%; text-align:center;">
+    <i class="home icon"></i> <strong>NEWS FEED</strong>
   </a>
-  <a href="/stores" class="active item" style="width:50%;">
-    <i class="shop icon"></i> Stores
+  <a href="/stores" class="active item" style="width:50%;text-align:center;">
+    <i class="shop icon"></i><strong> STORES</strong>
   </a>
 </div>
 
 
-<h2 class="ui center aligned icon header">
+<h3 class="ui center aligned icon header">
   <i class="circular shop icon"></i>
-  List of our Stores
-</h2><br>
+<span style="color:#e7155e;"> i am real</span> Stores
+</h3><br>
+
+ <div id="map-canvas" style="width:100%;height:280px;margin-left:auto;margin-right:auto;"></div>
+
 <div style="margin:20px;">
 <div class="ui big divided list">
   
   <div class="item">
-  <div class="right floated secondary ui button">Get Directions</div>
+  <div class="small right floated secondary ui button store1">Get Directions</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header" id="store">Address 1</a>
+      <a class="header " id="store"><img id="str" src="meenal-3.png"></a>
     
-      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>
     </div>
   </div>
    <div class="item">
-  <div class="right floated secondary ui button">Get Directions</div>
+  <div class="small right floated secondary ui button store2">Get Directions</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header" id="store">Address 2</a>
+      <a class="header " id="store"><img id="str" src="unimartl-2.png"></a>
     
-      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>
-    </div>
-  </div>
-
-   <div class="item">
-  <div class="right floated secondary ui button">Get Directions</div>
-    <i class="map marker icon"></i>
-    <div class="content">
-    
-      <a class="header" id="store">Address 3</a>
-    
-      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>
     </div>
   </div>
 
    <div class="item">
-  <div class="right floated secondary ui button">Get Directions</div>
+  <div class="small right floated secondary ui button store3">Get Directions</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header" id="store">Address 4</a>
+      <a class="header " id="store"><img id="str" src="shopno-2.png"></a>
     
-      <div class="description">An excellent polish restaurant, quick delivery and hearty, filling meals.</div>
+    </div>
+  </div>
+
+   <div class="item">
+  <div class="small right floated secondary ui button store4">Get Directions</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" src="lavender-2.png"></a>
+     
     </div>
   </div>
 
@@ -70,6 +69,15 @@
   #store{
     color:  #e7155e !important;
   }
-
+  .description{
+    font-size:12px;
+  }
+#str{
+  margin-top: 0;
+}
+body > h3{
+  margin-top: 2px!important;
+  margin-bottom: 1px !important;
+}
 </style>
 </template>
