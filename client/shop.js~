@@ -1,0 +1,34 @@
+Template.shop.events({
+	'click #submit':function(evt,tmpl){
+		var name = tmpl.find('.name').value;
+		var email = tmpl.find('.email').value;
+		var phone = tmpl.find('.mobile').value;
+		var delivery=tmpl.find('.delivery').value;
+		var apple=tmpl.find('.apple').value;
+		var pear=tmpl.find('.pear').value;
+		var pineapple=tmpl.find('.pineapple').value;;
+		var address=tmpl.find('.address').value;;
+		var date=new Date();
+		
+		Shop.insert({
+			name:name,
+			email:email,
+			phone:phone,
+			delivery:delivery,
+			apple:apple,
+			pear:pear,
+			pineapple:pineapple,
+			address:address,
+			time:date.toLocaleDateString()+' at '+date.toLocaleTimeString()	
+		});
+		Session.set('adding_cart', false);
+	}
+});
+Template.database.events({
+	'click .remove':function(evt,tmpl){
+	evt.preventDefault();
+	var id=tmpl.data._id;
+	 Shop.remove({_id:id});
+	
+	}
+});

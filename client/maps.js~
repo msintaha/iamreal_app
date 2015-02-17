@@ -35,21 +35,21 @@ Template.stores.events({
 	icon: image
 });
 marker.setMap(map);	
- 
-// var lat=Geolocation.latLng().lat;
-// var lang=Geolocation.latLng().lng;
-// 	var myLalng = new google.maps.LatLng(lat,lang);
-//         ma = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
-//         ma.setCenter(new google.maps.LatLng( 
-// lat,lang));
-// var image2 = '/me.png';
-// 	var mark = new google.maps.Marker({
-//     position: myLalng,
-//     title:"me!",
-// icon:image2
-// });
-// mark.setMap(ma);
- });  
+
+var lat=Geolocation.latLng().lat;
+var lang=Geolocation.latLng().lng;
+	var myLalng = new google.maps.LatLng(lat,lang);
+        ma = new google.maps.Map(document.getElementById("map-canvas"), mapOptions); 
+        ma.setCenter(new google.maps.LatLng( 
+lat,lang));
+var image2 = '/me.png';
+	var mark = new google.maps.Marker({
+    position: myLalng,
+    title:"me!",
+icon:image2
+});
+mark.setMap(ma);
+    });
 	},
 
 		'click .store1b':function(e){

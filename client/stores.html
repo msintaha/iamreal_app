@@ -1,63 +1,279 @@
 <template name="stores">
-
-  <div class="ui inverted menu" id="nav">
+<div id="wrapper">
+ <div class="ui inverted menu" id="nav">
   <a href="/feed" class="item" style="width:50%; text-align:center;">
-    <i class="home icon"></i> <strong>NEWS FEED</strong>
+    <i class="feed icon"></i> <strong>FEED</strong>
   </a>
   <a href="/stores" class="active item" style="width:50%;text-align:center;">
     <i class="shop icon"></i><strong> STORES</strong>
   </a>
+  <!--   <a href="/shop" class="active item" style="width:33.33%;text-align:center;">
+    <i class="payment icon"></i> <strong>BUY</strong>
+  </a> -->
 </div>
-
 
 <h3 class="ui center aligned icon header">
   <i class="circular shop icon"></i>
 <span style="color:#e7155e;"> i am real</span> Stores
 </h3><br>
 
- <div id="map-canvas" style="width:100%;height:280px;margin-left:auto;margin-right:auto;"></div>
+ <div id="map-canvas" style="width:100%;height:260px;margin-left:auto;margin-right:auto;"></div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div style="margin:20px;">
 <div class="ui big divided list">
   
   <div class="item">
-  <div class="small right floated secondary ui button store1">Get Directions</div>
+  <div class="small right floated secondary ui button store1">Get Location</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header " id="store"><img id="str" src="meenal-3.png"></a>
+      <a class="header " id="store"><img id="str" style="width:70%;" src="meenal-3.png">
+      </a>&nbsp;&nbsp;&nbsp;&nbsp;Dhanmondi
     
     </div>
   </div>
-   <div class="item">
-  <div class="small right floated secondary ui button store2">Get Directions</div>
+
+  <div class="item">
+  <div class="small right floated secondary ui button store1b">Get Location</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header " id="store"><img id="str" src="unimartl-2.png"></a>
+      <a class="header " id="store"><img id="str" style="width:70%;" src="meenal-3.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;Tejgaon
+    
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store1c">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:70%;" src="meenal-3.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;New Eskaton Road
     
     </div>
   </div>
 
    <div class="item">
-  <div class="small right floated secondary ui button store3">Get Directions</div>
+  <div class="small right floated secondary ui button store1d">Get Location</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header " id="store"><img id="str" src="shopno-2.png"></a>
+      <a class="header " id="store"><img id="str" style="width:70%;" src="meenal-3.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;Banani
+    
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store1e">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:70%;" src="meenal-3.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;Ring Road
+    </div>
+  </div>
+
+  <div class="item">
+  <div class="small right floated secondary ui button store1f">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:70%;" src="meenal-3.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;Salimullah Road
+    </div>
+  </div>
+
+   <div class="item">
+  <div class="small right floated secondary ui button store2">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:70%;" src="unimartl-2.png"></a>
     
     </div>
   </div>
 
    <div class="item">
-  <div class="small right floated secondary ui button store4">Get Directions</div>
+  <div class="small right floated secondary ui button store3">Get Location</div>
     <i class="map marker icon"></i>
     <div class="content">
     
-      <a class="header " id="store"><img id="str" src="lavender-2.png"></a>
+      <a class="header " id="store"><img id="str" style="height: 40px;width:100px;" src="shopno-2.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;Banani
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store3b">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 40px;width:100px;" src="shopno-2.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;Malibagh
+    </div>
+  </div>
+
+  <div class="item">
+  <div class="small right floated secondary ui button store3c">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 40px;width:100px;" src="shopno-2.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;Old Elephant Rd.
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store3d">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 40px;width:100px;" src="shopno-2.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;Banasree
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store3e">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 40px;width:100px;" src="shopno-2.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;Begum Rokeya Sharani
+    </div>
+  </div>
+
+     <div class="item">
+  <div class="small right floated secondary ui button store3f">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height:40px;width:100px;" src="shopno-2.png"></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;Nikunja
+    </div>
+  </div>
+
+   <div class="item">
+  <div class="small right floated secondary ui button store4">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:69%;" src="lavender-2.png"></a>
      
     </div>
   </div>
+
+     <div class="item">
+  <div class="small right floated secondary ui button store5">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:58%;" src="directfresh.png"></a>
+     
+    </div>
+  </div>
+
+     <div class="item">
+  <div class="small right floated secondary ui button store6">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:60%;" src="north.png"></a>
+     
+    </div>
+  </div>
+
+     <div class="item">
+  <div class="small right floated secondary ui button store7">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:60%;" src="saus.png"></a>
+     
+    </div>
+  </div>
+
+   <div class="item">
+  <div class="small right floated secondary ui button store8">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Gulshan
+     
+    </div>
+  </div>
+
+  <div class="item">
+  <div class="small right floated secondary ui button store8b">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Dhanmondi, Mirpur Rd.
+     
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store8c">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Dhanmondi 5/A
+     
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store8d">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Bashundhara City
+     
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store8e">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Banasree
+     
+    </div>
+  </div>
+
+    <div class="item">
+  <div class="small right floated secondary ui button store8f">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Uttara
+     
+    </div>
+  </div>
+
+  <div class="item">
+  <div class="small right floated secondary ui button store8g">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="height: 50px;width:70px;" src="ffc-1.png"></a> &nbsp;&nbsp;&nbsp;&nbsp;Mirpur
+     
+    </div>
+  </div>
+     <div class="item">
+  <div class="small right floated secondary ui button store9">Get Location</div>
+    <i class="map marker icon"></i>
+    <div class="content">
+    
+      <a class="header " id="store"><img id="str" style="width:70%;" src="nandan-2.png"></a>
+     
+    </div>
+  </div>
+
+
 
 </div>  
 </div>
@@ -75,9 +291,19 @@
 #str{
   margin-top: 0;
 }
+#wrapper > h3{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 body > h3{
   margin-top: 2px!important;
   margin-bottom: 1px !important;
+}
+#wrapper{
+  position:fixed;
+  z-index: 100;
+  width: 100%;
+  background: white;
 }
 </style>
 </template>

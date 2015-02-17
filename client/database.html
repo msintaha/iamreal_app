@@ -1,0 +1,37 @@
+<template name="database">
+	<table class="ui table">
+  <thead>
+    <tr>
+      <th> <a class="remove"><i class="remove icon"></i></a>Name</th>
+      <th>E-mail</th>
+      <th>Phone no.</th>
+      <th>Delivery Date</th>
+      <th>Apple Qty(Crates)</th>
+      <th>Pear Qty(Crates)</th>
+      <th>Pineapple Qty(Crates)</th>
+      <th>Delivery Address</th>
+      <th>Ordered at</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+    <tr>
+      <td>{{name}}</td>
+      <td>{{email}}</td>
+      <td>{{phone}}</td>
+      <td>{{delivery}}</td>
+      <td>{{apple}}</td>
+      <td>{{pear}}</td>
+      <td>{{pineapple}}</td>
+      <td>{{address}}</td>
+      <td>{{time}}</td>
+    </tr>
+ 
+  </tbody>
+</table>
+<style type="text/css">
+	body{
+		background: white;
+	}
+</style>
+</template>

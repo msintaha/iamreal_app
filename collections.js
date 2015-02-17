@@ -1,1 +1,2 @@
-iStores = new Meteor.Collection('istores');
+
+Shop = new Meteor.Collection('shop');

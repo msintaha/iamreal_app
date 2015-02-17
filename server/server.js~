@@ -1,0 +1,19 @@
+Meteor.methods({
+		'removeEntryAll':function(){
+			Shop.remove({});
+		},
+                'removeEntry': function(id){
+                      Shop.remove({_id:id});
+                },
+		'postAway':function(){
+		return Meteor.http.post(
+    "http://localhost:3000/hello/",
+    {params:{
+    	"id":"hello"
+    }},function(err){
+	console.log("Didnt work :/");
+    });
+		}
+		
+
+	});
